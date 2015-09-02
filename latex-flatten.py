@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-# A simple script for flattening latex files by inlining included files.
+# A simple script for flattening LaTeX files by inlining included files.
 #
 #   - Supports `\include` and `\input` commands.
-#   - Automatically adds extension `.tex` if file does not have an extension.
+#   - Automatically adds extension `.tex` if the file does not have an extension.
 #   - Handles multiple include commands per line, comments.
 #   - Does not flatten recursively.
 

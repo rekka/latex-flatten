@@ -1,6 +1,12 @@
 # latex-flatten
 
-Python script for flattening LaTeX files
+A simple Python script for flattening LaTeX files by inlining included files.
+
+  - Supports `\include` and `\input` commands.
+  - Automatically adds extension `.tex` if the file does not have an extension.
+  - Handles multiple include commands per line, comments.
+  - Does not flatten recursively.
+
 
 ## Installation and usage
 
